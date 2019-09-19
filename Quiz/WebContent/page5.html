@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet"  type="text/CSS" href="CSS/style.css" >
+</head>
+<body onload="fetchjson('q5')">
+<br><br><br>
+	<div class="container fontsize">
+			<div class="panel panel-default">
+				<div class="panel-heading" id="demo2"></div>
+				<div class="panel-body">
+					<input type="radio" name="option" value="A"><b id="option1"></b><br><br>
+				<input type="radio" name="option" value="B"><b id="option2"></b><br><br>
+				<input type="radio" name="option" value="C"><b id="option3"></b><br><br>
+				<input type="radio" name="option" value="D"><b id="option4"></b><br><br>
+				</div>
+			</div>
+		    <ul class="pager">
+			    <li class="previous"><a href="page4.html">Previous</a></li>
+			     <li class="next"><a href="page6.html" onClick="return Store('q5')" >Next</a></li>
+		    </ul>
+	</div>
+	<script type="text/javascript" src="JS/fetch.js"></script>
+</body>
+</html>
